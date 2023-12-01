@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+.l1{
+	 background-image: url('mm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   background-color: rgba(0, 0, 0, 0.5); /* Change the opacity value for the desired transparency */
+    z-index: -1;
+}
+
+ .pl1{
+ 	width: 100%;
+ 	height:60px;
+ 	color: white;
+ 	background-color: #fff;
+ 	background-color: rgba(0, 0, 0, 0.5);
+ 	position: relative;
+ 	left: 0px;
+ 	display: flex;
+ }
+ .l12{
+ 	position: relative;
+ 	left: 100px;
+ }
+.l12 img{
+ 	border-radius: 50%;
+ 	height: 60px;
+ 	width: 60px;
+ }
+ .l12 label{
+
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	position: relative;
+ 	top: -20px;
+ 	font-family: sans-serif;
+ }
+.l3{
+	position: relative;
+	left: 850px;
+ }
+ .l3 label{
+ 	font-size: 23px;
+ 	position: fixed;
+ 	top: 20px;
+ 	text-decoration: none;
+	color: white;
+	cursor: pointer;
+ }
+.l2{
+	width: 700px;
+	height: 470px;
+	background-color:dodgerblue;
+	display: flex;
+	 position: relative;
+	 top: 30px;
+	
+}
+.l4{
+	width: 350px;
+	height: 100%;
+}
+.l5{
+	width: 350px;
+	background-color: lightslategray;
+	height: 100%;
+
+}
+.l41 label{
+	font-size: 25px;
+	position: relative;
+	left: -73px;
+	font-weight: 550;
+	font-style: oblique ;
+}
+.l41{
+	position: relative;
+	top: 80px;
+	left: 0px;
+}
+.l42{
+	
+	width: 300px;
+	height: 60px;
+	font-size: 17px;
+	position: relative;
+	top: 90px;
+	left: -10px;
+	
+}
+
+
+.l43{
+	width: 300px;
+	height: 50px;
+	
+	position: relative;
+	top: 90px;
+	left: -10px;
+	font-family: sans-serif;
+	font-weight: 500;
+	margin-top: 10px;
+
+}
+.l43 i{
+	font-size: 30px;
+	position: relative;
+	right:64px ;
+}
+#id1{
+	position: relative;
+	right: 55px;
+	bottom: 10px;
+	font-size: 20px;
+}
+#id2{
+	position: relative;
+	left: -18px;
+}
+#id3{
+	position: relative;
+	left: 8px;
+}
+.l43 p{
+	position: relative;
+	right: 0px;
+	left: 20px;
+	bottom: 20px;
+	font-size: 15px;
+}
+.l5 img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: relative;
+	top: 50px;
+}
+#id4{
+	position: relative;
+	top: 53px;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+#id5{
+	position: relative;
+	top: 40px;
+}
+.l6{
+	width: 300px;
+	height: 300px;
+	
+	position: relative;
+	top: 30px;
+}
+.l6 input{
+	width: 250px;
+	height: 30px;
+	border-radius: 20px;
+	border: none;
+	position: relative;
+	top: 20px;
+	left: 5px;
+	margin-top: 18px;
+
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+input:focus {
+	border: 1px solid blue;
+  border-color: blue; /* Change this to your desired focus color */
+}
+.l6 i{
+	position: relative;
+	top: 22px;
+}
+#lbtn{
+	margin-left: 11px;
+	background-color: skyblue;
+}
+
+
+/*signup code starts here*/
+.class-1{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+.class-2{
+	width: 683px;
+	height:651px;
+	background-color: #b1b1b1;
+}
+.class-3{
+	width: 683px;
+	height: 651px;
+	background-image: url('wel.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.class-4{
+	width: 350px;
+	height: 400px;
+	position: relative;
+	top: 60px;
+	left: 170px;
+}
+.class-4 img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.class-4 label{
+	font-family: sans-serif;
+	font-size: 22px;
+	font-weight: 550;
+	position: relative;
+	left: 130px;
+
+}
+.class-5{
+	position: relative;
+	top: 20px;
+	left:40px;
+
+}
+.class-5 input{
+	width: 250px;
+	height: 30px;
+	border-radius: 20px;
+	border: none;
+	margin-top: 20px;
+}
+#s_btn{
+	position: relative;
+	left: 15px;
+	width: 260px;
+	background-color: #212121;
+	color: #fff;
+}
+.class-3 label{
+	float: right;
+	font-size: 25px;
+	position: relative;
+	left: -85px;
+	top: 10px;
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+.class-7{
+	width: 300px;
+	height: 20px;
+	
+	position: relative;
+	left: 65px;
+	top: 10px;
+	font-family:serif;
+	color: red;
+	font-size: 17px;
+
+}
+#entry1::placeholder{
+	font-size: 15px;
+	color: black;
+}
+#entry2::placeholder{
+	font-size: 15px;
+	color: black;
+}
+#user_name::placeholder{
+	font-size: 15px;
+	color: black;
+}
+#password::placeholder{
+	font-size: 15px;
+	color: black;
+}
+#retype_password::placeholder{
+	font-size: 15px;
+	color: black;
+}
+#email::placeholder{
+	font-size: 15px;
+	color: black;
+}
